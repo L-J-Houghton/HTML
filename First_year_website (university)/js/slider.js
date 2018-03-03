@@ -1,0 +1,1 @@
+$(document).ready(function(){setInterval(function(){$("#slider ul").animate({marginLeft:"-100%"},3500,function(){$(this).find("li:last").after($(this).find("li:first")),$(this).css({marginLeft:0})})},5e3)});

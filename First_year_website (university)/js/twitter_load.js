@@ -1,0 +1,1 @@
+$(document).ready(function(){console.log("Hello!"),$("#twitter_feed").ready(function(){console.log("Calling"),$.getScript("js/twitter.js")})});

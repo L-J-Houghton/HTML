@@ -1,0 +1,351 @@
+/* Imports */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("../fonts/HelveticaNeue/HelveticaNeue-Light.eot");
+  src: url("../fonts/HelveticaNeue/HelveticaNeue-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeue/HelveticaNeue-Light.woff") format("woff"), url("../fonts/HelveticaNeue/HelveticaNeue-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("../fonts/HelveticaNeue/HelveticaNeue-Medium.eot");
+  src: url("../fonts/HelveticaNeue/HelveticaNeue-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeue/HelveticaNeue-Medium.woff") format("woff"), url("../fonts/HelveticaNeue/HelveticaNeue-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("../fonts/HelveticaNeue/HelveticaNeue-Bold.eot");
+  src: url("../fonts/HelveticaNeue/HelveticaNeue-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeue/HelveticaNeue-Bold.woff") format("woff"), url("../fonts/HelveticaNeue/HelveticaNeue-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("../fonts/HelveticaNeue/HelveticaNeue-UltraLight.eot");
+  src: url("../fonts/HelveticaNeue/HelveticaNeue-UltraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeue/HelveticaNeue-UltraLight.woff") format("woff"), url("../fonts/HelveticaNeue/HelveticaNeue-UltraLight.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal; }
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("../fonts/HelveticaNeue/HelveticaNeue.eot");
+  src: url("../fonts/HelveticaNeue/HelveticaNeue.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeue/HelveticaNeue.woff") format("woff"), url("../fonts/HelveticaNeue/HelveticaNeue.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+/* Helper classes */
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.container {
+  width: 100%;
+  max-width: 990px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto; }
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 10px; }
+
+/* Actual styling */
+/* 
+##################################################
+Header
+##################################################
+ */
+header {
+  background: url(../images/header_bg-pattern2.png), #3f73c5;
+  background: url(../images/header_bg-pattern2.png), -moz-linear-gradient(-45deg, #3f73c5 0%, #295eb5 100%);
+  background: url(../images/header_bg-pattern2.png), -webkit-linear-gradient(-45deg, #3f73c5 0%, #295eb5 100%);
+  background: url(../images/header_bg-pattern2.png), linear-gradient(135deg, #3f73c5 0%, #295eb5 100%);
+  filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f73c5', endColorstr='#295eb5',GradientType=1 )";
+  padding: 20px 0 10px; }
+  header img {
+    float: left;
+    display: block; }
+    @media (max-width: 424px) {
+      header img {
+        float: none;
+        margin: 0 auto; } }
+  header nav {
+    float: right; }
+    header nav ul li {
+      float: right; }
+      header nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        opacity: 0.5;
+        text-transform: uppercase;
+        padding: 0 20px;
+        font-size: 14px;
+        line-height: 44px;
+        display: block;
+        letter-spacing: 0.35em;
+        font-weight: 300; }
+        header nav ul li a:hover {
+          text-decoration: underline; }
+        @media (max-width: 767px) {
+          header nav ul li a {
+            padding: 0 10px; } }
+      @media (max-width: 424px) {
+        header nav ul li {
+          float: none;
+          display: inline-block; } }
+    @media (max-width: 424px) {
+      header nav ul {
+        text-align: center; } }
+    @media (max-width: 424px) {
+      header nav {
+        width: 100%;
+        clear: both;
+        float: none; } }
+  header h1 {
+    display: block;
+    clear: both;
+    color: #fff;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 60px;
+    float: left;
+    width: 100%;
+    max-width: 695px;
+    margin-top: 71px;
+    margin-bottom: 53px; }
+    @media (max-width: 767px) {
+      header h1 {
+        font-size: 26px;
+        line-height: 38px;
+        margin-top: 50px;
+        margin-bottom: 30px; } }
+    @media (max-width: 424px) {
+      header h1 {
+        font-size: 22px;
+        line-height: 30px;
+        margin-top: 30px; } }
+  header a.more-btn {
+    display: block;
+    clear: both;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 46px;
+    border: 1px solid #fff;
+    border-radius: 22px;
+    float: left;
+    padding: 0 18px;
+    width: 100%;
+    max-width: 220px;
+    text-align: center;
+    transition: all .1s ease-out;
+    margin-bottom: 72px;
+    letter-spacing: 0.3em; }
+    header a.more-btn:hover {
+      background: #fff;
+      color: #295eb5; }
+    @media (max-width: 767px) {
+      header a.more-btn {
+        margin-bottom: 40px; } }
+
+/* 
+##################################################
+Main
+##################################################
+ */
+main {
+  padding: 71px 0 82px;
+  text-align: center; }
+  main h2 {
+    color: #295eb5;
+    font-size: 55px;
+    font-weight: 100;
+    text-transform: capitalize;
+    letter-spacing: 0.15em;
+    margin-bottom: 72px; }
+    @media (max-width: 767px) {
+      main h2 {
+        font-size: 45px;
+        margin-bottom: 60px; } }
+  main section {
+    display: inline-block;
+    width: 50%;
+    max-width: 230px;
+    margin: 0 65px;
+    vertical-align: top; }
+    @media (max-width: 569px) {
+      main section img {
+        float: left;
+        margin-right: 20px;
+        margin-top: 10px; } }
+    main section h3 {
+      font-size: 22px;
+      color: #000;
+      margin-top: 37px;
+      margin-bottom: 24px;
+      text-transform: capitalize; }
+      @media (max-width: 767px) {
+        main section h3 {
+          margin-top: 17px;
+          margin-bottom: 14px; } }
+      @media (max-width: 569px) {
+        main section h3 {
+          float: left;
+          margin-top: 0;
+          margin-bottom: 10px; } }
+    main section p {
+      font-size: 14px;
+      color: #707070;
+      line-height: 19px;
+      letter-spacing: 0.05em; }
+      @media (max-width: 569px) {
+        main section p {
+          float: left;
+          max-width: calc(100% - 110px);
+          text-align: left; } }
+    @media (max-width: 767px) {
+      main section {
+        margin: 0; }
+        main section:first-of-type {
+          padding-right: 20px; }
+        main section:last-of-type {
+          padding-left: 20px; } }
+    @media (max-width: 569px) {
+      main section {
+        width: 100%;
+        max-width: 450px;
+        display: block;
+        clear: both;
+        margin: 0 auto 35px !important;
+        padding: 0 !important;
+        clear: both; } }
+  @media (max-width: 767px) {
+    main {
+      padding-top: 40px; } }
+  @media (max-width: 569px) {
+    main {
+      padding-bottom: 0; } }
+
+/* 
+##################################################
+Footer
+##################################################
+ */
+footer {
+  background: #3f73c5;
+  background: -moz-linear-gradient(-45deg, #3f73c5 0%, #295eb5 100%);
+  background: -webkit-linear-gradient(-45deg, #3f73c5 0%, #295eb5 100%);
+  background: linear-gradient(135deg, #3f73c5 0%, #295eb5 100%);
+  filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f73c5', endColorstr='#295eb5',GradientType=1 )";
+  text-align: center;
+  padding-top: 73px;
+  color: #fff; }
+  footer p.contact {
+    font-size: 46px;
+    font-weight: 100;
+    letter-spacing: 0.15em;
+    text-transform: capitalize;
+    margin-bottom: 62px; }
+    @media (max-width: 767px) {
+      footer p.contact {
+        font-size: 36px;
+        margin-bottom: 20px; } }
+    @media (max-width: 424px) {
+      footer p.contact {
+        font-size: 26px;
+        margin-bottom: 10px; } }
+  footer .icons {
+    margin-bottom: 70px; }
+    footer .icons a {
+      display: inline-block;
+      font-size: 40px;
+      text-align: center;
+      border-radius: 50%;
+      width: 78px;
+      height: 78px;
+      line-height: 78px;
+      margin: 0 17px;
+      color: #fff;
+      border: 2px solid;
+      transition: all .1s ease-out; }
+      footer .icons a.twitter {
+        background: #3d95e8;
+        border-color: #3d95e8; }
+      footer .icons a.facebook {
+        background: #3b5998;
+        border-color: #3b5998; }
+      footer .icons a:hover {
+        background: #fff; }
+        footer .icons a:hover.twitter {
+          color: #3d95e8; }
+        footer .icons a:hover.facebook {
+          color: #3b5998; }
+      @media (max-width: 767px) {
+        footer .icons a {
+          font-size: 30px;
+          width: 58px;
+          height: 58px;
+          line-height: 58px;
+          margin: 0 9px; } }
+      @media (max-width: 424px) {
+        footer .icons a {
+          font-size: 20px;
+          width: 38px;
+          height: 38px;
+          line-height: 38px;
+          margin: 0 12px; } }
+    @media (max-width: 767px) {
+      footer .icons {
+        margin-bottom: 40px; } }
+    @media (max-width: 424px) {
+      footer .icons {
+        margin-bottom: 20px; } }
+  footer p.bottom-bar {
+    line-height: 77px;
+    display: block;
+    background: #343434;
+    font-size: 12px; }
+  @media (max-width: 767px) {
+    footer {
+      padding-top: 40px; } }
+  @media (max-width: 424px) {
+    footer {
+      padding-top: 15px; } }
+
+/*# sourceMappingURL=styles.css.map */

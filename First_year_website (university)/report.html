@@ -1,0 +1,386 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta charset="UTF-8"/>
+<link rel = "stylesheet" type = "text/css" href = "css\report.css">
+<title>
+Luke Houghton-Report-CW5
+</title>
+</head>
+
+<body>
+
+<h1 id="report_h">CW5 Report</h1>
+<h3 id="report_sh">Luke Houghton</h3>
+<a href="http://doc.gold.ac.uk/~lhoug001/webprog/cw5/index.html"><h3>(Live view link to my site) http://doc.gold.ac.uk/~lhoug001/webprog/cw5/index.html</h3></a>
+<h3 id="Intro">Intro:</h3>
+<p>This is the report html for cw5 which documents and explains exactly what techniques 
+   and methods I have used to achieve the styles , intereaction and the content within the
+   site itself all images and font files taht are used within this site are free for non-commercial use and for modification. I 
+   have ensured this by only using a creative commons search and also using google search filters to ensure the images are free to use and 
+   modify as I wish. The font type is "Timeburner" which I have downloaded from fontspace.com are also marked free to use for commercial purposes
+   by the author themselves. And all Javascript and css files have been minified and compressed. 
+   <br/>
+   I will be explaining and disecting every element within each of the pages used within my
+   and shall explain:</p>
+   <ol>
+   <li>What I have done to achieve this.</li>
+   <li>Why I have done this and the inspiration behind this.</li>
+   <li>What Resources or references I have used to help to achieve the end product.</li>
+   </ol>
+   <p>I have also attached a references text file that includes the references for mainly the
+      creative commons images I have used within the site and any code references I have used.
+   </p>
+   <h3 id="site_h">The site:</h3>
+   <h4 id="mq">Media Queries:</h4>
+   <p>I have done media queries for both a standard mobile devices both portrait and landscape and also a media query for 
+      desktop and laptop versions. For the media query for the mobile site I have not included the background as I wanted
+	  to simplify and expand the site as much as possible for mobile devices therefore I have not included the background image for
+	  both simplicity and the functionality of the site. I have used google developer tools to develop and design the site for mobile
+	  devices and I have been using my 15" laptop 1366x768 resolution to design the site however I have made a media query for devices
+	  with a minimum width of 1224px resolution as this his widely used for desktop and many laptop devices. I have tested the site in chrome,
+	  safari for mobile query , IE10 and firefox to ensure it works across multiple browsers. I was originally planning to use a different navigation menu 
+	  for the mobile media query but the "Hamburger navigation bar" as it is more commonly known does would have accesibility issues. I therefore have 
+	  increased the font-size of the nav bar text and repositioned the bar. I have also created bigger buttons and bigger icon butons such as within the
+	  social media bar for mobile the mobile media query as this would make it easier to view and interact with the site.</p>
+   <h4 id="layout">Layout of the site:</h4>
+   <p>For the layout and styling of the site I took inspiration from a few sites that use a minimilistic approach to style. I also wanted to make the 
+      page centre aligned with the font left aligned within it so the layout style that I have created also allows for this to happen aswell. I have also used a 
+	  background image for all desktop queries for the site as the grey background image compliments the colour scheme and the overall aesthetical appearance
+	  of the site. I have surrounded the main content of the site in a div tag called site, I have done this to create a centred page effect that is simplistic
+	  and stylish. I got the idea for this from a few sites however I at first did not know how to achieve the effect so I researched and by looking at a few 
+	  forums I developed an understanding of how to achieve the desired end result. In terms of the layout of the html I have done everything apart from the 
+	  doctype declaration which I had gotten the template from the W3 schools site. I have also used GIMP editor to compress the images to save file
+	  space and to also load the pages faster and smoother.</p>
+   <h3 id="index_h">Index.html</h3>
+   <div id="index.html">
+     <p>In this page I have created a simple yet stylish design that is sleek and easy on the eye.
+	    I have created a navigation bar , a Jquery slider, twitter feed, small info article, 
+		rollover social media bar and footer with a simple grey background.
+		I have created this page as a homepage that helps the user to see exactly what content
+		the site consists of and some social media features such as a twitter feed.</p>
+		<p>
+		 
+		
+		</p>
+   </div>
+   <h4 id="nav">The nav bar:</h4>
+   <img id="nav_bar" src="images\nav_bar.png"/>
+   <h4 id="what_1">What I have done to achieve this result:</h4>
+   <p id="nav_what">In order to help the user navigate through the site easily and harmoniously
+   and also makes the site more accessible for disabled/impaired users'. The navigation bar also
+   is widely used within most of the web in modern times and it is what the average user has been 
+   acustomed to. To achieve this result I have used the html5 nav tags and within those tags I have 
+   created an un ordered list which within those tags I have used the list elements to create the
+   menu options such as music , cv etc. I have then surrounded these with anchor tags to allow the 
+   menu options to become interactive and thus allowing the user to visit the rest of the site 
+   content. In order to achieve the visual effects such as the background and the box-shadowing
+   I have used css3. First I have positioned the list in place and then I used the display-inline
+   method inbuilt within css3 to display the list horizontally. I have then used the on hover method 
+   within css3 to change the colour of the background once the user is hovering over the menu option
+   (list element) itself I have also changed the background to a blue colour to fot the colour scheme.
+   <br/>
+   <br/>
+   I have also applied a box shadow effect on hover aswell as this creates a visually appealing
+   effect and also fits in with the sleek design of the website. I have also used the rgba extension on the
+   box shadow to create a more accurate visual effect. I have also included an image within the nav bar as
+   this is the logo for the site that I made using the GIMP editor and also importing "timeburner" which is
+   a free to use commercial font whcih I have also applied across the nav bar and the website to keep it unified
+   and formal.</p>
+   <h4 id="why_1">Why I have I done this:</h4>
+   <p id="nav_why">I have made the navbar to help the user navigate their way through the site with ease and
+   simplicity. I have also done this as it is the design and layout for many other sites and therefore it is 
+   what users' are custom to and therefore I have designed a navigation bar with the client (user) in mind.
+   I have also done this for style and effect as the navbar gives the site a proffesional and sleek design
+   which i what I was aiming for as this is also visually and aesthetically appealing for the user aswell as it
+   is useful. The navbar also compliments the rest of the site aswell and I have decided to keep it through out 
+   all of the pages of the site as it is a useful feature and contributes to the aesthetical properties aswell.
+   </p>
+   <h4 id="other_1">Sources/references:</h4>
+   <p>I have used the W3 schools site just to reference a few things and to view the structuring of the navbar
+   just to remind myself and have used the insight what I got from viewing the W3 schools material online to 
+   influence my own navbar design however all the coding I had done myself. I have also used the colour 
+   picker within GIMP editor to get the hex value and the rgba values for the background colour(theme).</p>
+   <h4 id="slider">The jQuery slider:</h4>
+   <img id="slider_img" src="images\slider_img.png" />
+   <h4 id="what_2">What I have done to achieve this result:</h4>
+   <p id="slider_what">In order to achieve this result I have installed the jQuery plugin and have kept it as 
+   a seperate file and then linked within the index.html I have then used artcile tags in which I made div tags
+   which I then used later on within css and also to contain the rest of the elements and images within the slider
+   itself. I have then created an un ordered list within the div tag and then within those I have created list elements
+   which contain the images used within the slider. I have then went ahead in css and have set the height and width of 
+   the images using the divs and also using css properites such as float left and absolute positioning to position the
+   slider within the article itself. I have then used jQuery to create the slideshow animation I have done this by following a 
+   youtube tutorial (see references) and then from the knowledge I gained I then knew how to structure and layout the jQuery
+   script itself. I then coded the script myself and also set my own values such as the speed and the animation time /transition
+   How the jQuery script works is by taking first setting the interval and then moving the margin-left along 100%. The jQuery calls the
+   divs by id that are used in the css in order to carry out and create this end result. I have then set the timed values in milliseconds
+   for accuracy and this also enables the slider to fucntion properly to change/animate the images within the slideshow at a smooth and 
+   consistent pace. The slideshow jquery function also works by getting the current element (in this case the list element) by using the 
+    "this" method which then allows the rest of the script to run and the animation to be carried out.</p>
+	<h4 id="why_2">Why I have done this:</h4>
+	<p id="slider_why">I have done this as it fits in with the stlye of the site and also compliments the site layout and design and to also 
+	create an image gallery which relates to the page as London is somewhere very personal to me as it's where I grew up and therefore the images 
+	have been used to coincide with the site itself. I have chosen to display the images in a slideshow as it's a very clean and presentable way 
+	not to mention the style and visual effects and benefits it brings to the site by using it.</p>
+	<h4 id="other_2">Sources/references:</h4>
+	<p>The online material I have used to reference and to gain the knowledge of the structuring and layout of the jQuery slideshow is:
+	https://www.youtube.com/watch?v=GJCWW2P_T0g I used this video just to gain an insight as to what the jQuery function looks like and
+	to also gain an insight of the css structuring aswell. I have made my own slider from scratch and have altered the steps and the function
+	that is originally shown in the video to tailor it to my own site. And have only used the online video tutorial as a reference guide.</p>
+	<h4 id="twitter">Twitter feed:</h4>
+	<img id="twitter_img" src="images\twitter_report.png" />
+	<h4 id="what_3">What I have done to achieve this result:</h4>
+	<p>In order to achieve this result I had done some research and found the twitter API widget on the twitter site and then generated
+	my own twitter feed using their online tool. This then generated the javascript which I then took and put into a seperate js file.
+	I have then linked this in to the index.html in the head of the html file and I have then created a div in which the anchor tag for the 
+	twitter javascript is held. I have also contained the anchor tag / twitter feed within this div as I have used css3 to change the layout 
+	properties and the aesthetcial properties of the widget (twitter feed) to make it tailored to my site. I have used the twitter widget tool
+	which is widely used to create the widget and have used the twitter widget instructions on the twitter site to generate the code needed in order
+	for the function to run and the feed to be displayed. In order to keep the files seperate I have linked in another javascript file which uses a
+	jquery onload function which then allows the twitter feed javascript to be loaded once the page has sucessfully loaded. </p>
+	<h4 id="why_3">Why I have done this:</h4>
+    <p id="twitter_why">
+	I have made the twitter feed as it links back to the idea of the nav bar and that is mainly due down to the way in which most users' are
+	acustomed to. Therefore the twitter feed is a nice touch which also has some meaning behind it and that is to keep users' in touch with
+	the latest news and information. The account I created was an example account as I do not use twitter myself. The twitter feed also fits
+	in with the modern design and I have also used css3 properties in order to manipulate and position the twitter feed to fit within the design
+	aswell.</p>
+	<h4 id="other_3">Sources/references:</h4>
+	<p>I have used this link https://dev.twitter.com/streaming/public to find out more information and to gain an understanding as to what
+	steps required in order to create a twitter feed. I have also used the twitter feed widget generator to generate the function : https://dev.twitter.com/web/javascript
+    To generate the code I simply signed into my account and then followed the instructions and steps required to generate the code using my account settings
+	within twitter. I have also used W3 schools just to refer to the jQuery onload function that I had created.</p>
+	<h4 id="smb">Social media bar:</h4>
+	<img id="smb_img" src="images\smb.png" />
+    <h4 id="what_4">What I have done to achieve this result:</h4>
+    <p>I have first downloaded the images online using a creative commons search image first to ensure the images are free to use and to modify. I then
+	used GIMP editor to modify the images to greyscale as this would be needed in order to create a javascript rollover button effect. I then created a div
+	which then contains the images. Within each img element I also added anchor tags in order to ensure the buttons were also interactive when clicked and
+	linked to the correct sites such as facebook , twitter etc. I then ensured that the images had id's as this would be needed in order to generate the rollover
+	animation using javascript. I then generated the js file which then consists of a function which takes the id of the image which the user's mouse is over
+	using a mouseover fucntion which then passes through the image (id) and then changes the properties and thus changing the image file. Onmouse out fucntion is
+	then used to then return the id to it's original image file. I have finally linked the js file into the head of the index.html to allow it to function within 
+    the homepage / index.html</p>
+	<h4 id="why_4">Why I have done this:</h4>
+	<p>I have done this as I wanted to generate a social media type bar that allows the user to visit the site's social media profiles. I have not
+	linked the buttons with my actual accounts for security purposes. However the buttons do link to the sites just to demonstrate that the social
+	media bar actually works. I have also added a box shaow on each of the icons on hover as this creates and fits in with the style fo the site aswell.
+	Making it more aesthetically pleasing and more interactive for the user which gives a better and enhanced user experience.</p>
+	<h4 id="other_4">Sources/references:</h4>
+	<p>In order to do this I have used previous knowledge I have along with the reference pages on the W3 schools site.</p>
+	<h4 id="info">Info area</h4>
+	<img id="info_img" src="images\info.png" />
+    <h4 id="what_4">What I have done to achieve this result:</h4>
+	<p>I have created a small information area which tells the user about the site itself. It is essentially an introduction to the site. I have achieved this
+	by surrounding the information in pargraph tags , then containing the paragraph within a div tag which is then contained in the article tags. I have 
+	also used css to position and align the text as well as using the font-size property within css3 to set the font size.</p>
+	<h4 id="why_4">Why I have done this:</h4>
+	<p>I have done this as this info area gives more information about the site and gives a general overview as to what the site consists of. I have also positioned this
+	at a certain position to keep a grid based design that relates to the overall sleek modern design of the whole site. Therefore the information area has css3 
+	properties allowing it to be positioned accordingly and fit within the design / style of the site.</p>
+	<h4 id="other_4">Sources/references:</h4>
+	<p>I have used the W3 schools site just to refer to some of the css3 properites that I have used in order to create this information area.</p>
+	<h4 id="boxes">Box area</h4>
+	<img id="boxes_img" src="images\boxes.png" />
+	<h4 id="what_5">What I have done to achieve this result:</h4>
+	<p>I have firstly created the images for the info boxes using GIMP editor and then I have created section tags within the html which contain the images.
+	I have then added paragraph tags in which I have added information about the selected image within. I then went ahead using css3 and set the z-index of the 
+	images to 1 as this puts the image in front of the paragraphs. I have also set the text opacity to 0 as this will be needed in order to create the jQuery animation 
+	once the user clicks the tile(image). I have then using javascript / jQuery created a several functions that change the css properties of the images and the 
+	paragraphs within the html. The function is very simple and on the users click the id (image) changes it's opacity to 0 and the paragraph opacity becomes 1 at a 
+     slow pace therefore creating a subtle and simple animation that allows intereaction between the site and the user.</p>
+	<h4 id="why_5">Why I have done this:</h4>
+	<p>The reasoning behind this is simply to create a stylish animation and effect as if the text were just to be displayed on the screen it'd look slightly
+	dull and there would be too much content which would make it not as aesthetically pleasing as it could be. I have also offered intereaction as the intereaction
+	offers more communiation between the site and the end user. The tiles (image) animation is also used to keep the site compact in terms of visual spacing
+	and also because it suits the sleek stlying of the rest fo the site.</p>
+	<h4 id="other_5">Sources/references:</h4>
+	<p>I have used the W3 schools site just to refer to some of the jQuery animation functions such as fadeTo.</p>
+	<h4 id="footer">Footer</h4>
+	<img id="footer_img" src="images\footer.png" />
+	<h4 id="what_6">What I have done to achieve this result:</h4>
+	<p>In order to achieve this result I have used the html5 footer tags to create the footer element itself. I have then added
+	   some footer text add some information to the footer. I have then used the footer tag within css3 to add colour and an inset gradient
+	   which gives the footer a shadowed effect. To do this I have used the css3 background property to set the colour to the hex value that the 
+	   rest of the site uses so that the footer is consistent with the colour theme of the site. I have then used the box-shadow property to then create an
+	   inset within the footer to give it a gradient effect for style purposes.
+	   </p>
+	<h4 id="why_6">Why I have done this:</h4>
+	<p>I have done this simply to add stlye to the site and to show the use of html5 tags. I have also done this to fit in with the style of
+	the site and as footers have become an essential part of modern websites as they know when the websites content ends. I have chosen to use the 
+	same colour as the rest of the site as it keeps the design simplified and minimalistic. </p>
+	<h4 id="other_6">Sources/references:</h4>
+	<p>I have used W3 schools just as a reference to refer to some uses of the footer html5 tags.</p>
+	<h3 id="About_h">About.html</h3>
+     <p>In this page I have created a small bio about myself and have included some images that relate to the bio /blog itself. The page has a
+	 simple layout that compliments the rest of the site and also is sleek yet minimalistic. The font used within this page as with all pages is Timebunrer
+	 and the font colour is also the same hex colour as the rest of the site as I wanted to keep everything simple and unified when designing the site.
+	 The page uses both navigation bar and the footer bar which have been explained in the index.html.</p>
+	 <h4 id="about_article">Article</h4>
+	 <img id="article_img" src="images\about_article.png" />
+	 <h4 id="what_7">What I have done to achieve this result:</h4>
+	 <p>In order to achieve this I have created a div within the html5 article tags in which I then have created a several paragraph
+	 tags and within those tags I have included the text information that is shown to the user. I have also used css3 properties such as 
+	 position and font-size in order to manipulate and to gain the desired result. The font type used is Timeburner as I wanted to keep all font
+	 uniformal throughout the site as this contributes to the simplistic design.</p>
+	 <h4 id="why_7">Why I have done this:</h4>
+	 <p>I have done this to display information to the end user and to also add content to the site. I have also used the certain css3 properites
+	 such as absolute positioning and font-size to display the information in a proffesional and organised way in which compliments the 
+	 rest of the page and enhances the aesthetical appeal of the page just by positioning the text in a certain way. The text has also been 
+	 left aligned as I wnated to keep a proffesional and simple style to the content within this page.</p>
+	 <h4 id="other_7">Sources/references:</h4>
+	<p>I have used W3 schools just as a reference to refer to some uses of the absolute positioning.</p>
+	<h4 id="about_aside">Aside</h4>
+	<img id="aside_img" src="images\about_aside.png" />
+	<h4 id="what_8">What I have done to achieve this result:</h4>
+	<p>In order to achieve this result I have used the image tags within the html5 file and then within those I have inserted image tags
+	and linked the file paths of those images within those image tags. I have then used css3 properties such as width and height to set the 
+	images to a specific measurement so that they are in proportion to the page and therefore are aesthetically pleasing. I have also used absolute
+	positioning to position the images and the aside tag itself so that the page has a stylish composition and is aesthetically appealing to the 
+	user.</p>
+	<h4 id="why_8">Why I have done this:</h4>
+	<p>I have done this as I wanted to not only show visual information but also to add styling to the page with the use fo imagery. I have used 
+	composition to layout the images alongside the text. I have also considered spacing between the text and images themselves ensuring
+	that the content is not too cramped yet at the same time still keeping the grid based design of the page.</p>
+	<h4 id="other_8">Sources/references:</h4>
+	<p>I have used W3 schools just as a reference to refer to some uses of the absolute positioning , height and width properties. (Image references - see end of report)</p>
+	<h4 id="interests">Interests.html</h4>
+	<img id="interest_img" src="images\interests.png" />
+	<h4 id="what_9">What I have done to achieve this result:</h4>
+	<p>In order to achieve the effects within this page I have used the nav bar and footer as shown in the index.html section of the 
+	report. I have also used jQuery functions such as fadeTo and fadeOut to create simple yet effective animations that allow the user to interactive
+	with the site and also enables me to enhance the aesthetical beauty of the site as infomration can be hidden until needed making the site
+    layout more compact and effecient. How the jQuery works is very simple , it uses a click event handler which then once the action is complete
+	this then runs the function allowing the tiles to fade away whilst the information fades in. I have also used css3 property effects such as 
+	absolute positioning to align and position the images within the page effectively and to suit the sleek style of the rest of the site.
+	I have also used the opacity attribute within css to allow the jQuery to function and carry out the desired animation.</p>
+	<h4 id="why_9">Why I have done this:</h4>
+	<p>I have done this to show the content of the site and to also generate a page that has been designed with composition and the user in mind. I have used
+	jQuery to create the animations as there is less code and therefore the animations run more smoothly. I have also used jQuery to do this as the 
+	fadeTo and fadeOut effects are a good way to create simple yet effective animations for the end user to interact with. The reasoning behind hiding the
+	infomration until the tile is clicked is simply for design purposes and the visual / aesthetcial properties of the webpage as too much information
+	on one page can confuse the user and by creating these simple animations and hiding the text and information is not only more aesthetically appealing
+	but also is alot more clearer for the user to know what they're looking at.</p>
+	<h4 id="other_9">Sources/references:</h4>
+	<p>I have used W3 schools just as a reference to refer to some uses of the jQuery animations ,absolute positioning , height and width properties. (Image references - see end of report)</p>
+		<h4 id="music">music.html</h4>
+	<img id="music_img" src="images\music.png" />
+	<h4 id="what_10">What I have done to achieve this result:</h4>
+	<p>In order to achieve this result I have used jQuery , css and html to create a music page which is essentially my playlist of some of my favourite
+	   artists / songs. When clicked the user is taken to my playlist page on youtube where the playlist is set on auto play. I have used jQuery to change the 
+	   opacity of the text once the image is hovered over. How the jQuery function works is relatively simple it uses a mouseover function which takes 
+	   the element by it's id name and then performs the rest of the script allowing the text below to go to a fuller opacity once the user hovers over the 
+	   image within the playlist. I have used css3 to create a box shadow effect and have changed the rgba values so that the box shadow is the same colour
+	   as the site colour theme. In the html of the page I have first created article tags and within those article tags I have created divs which I have used
+	   within css3 to manipulate and position images and text. I have also used these divs as containers for the text and for the images which I have also
+	   surrounded in anchor tags allowing the user to visit the playlist page on youtube of the seleceted artist.</p>
+	<h4 id="why_10">Why I have done this:</h4>
+	<p>I have used the jQuery animations (functions) to create these effects as not only does it bring style and aesthetcial appeal to the site but it also
+	   shows the user the artists name once they hover over the chosen image (artist) I have also chosen to do this as it allows more interaction between the 
+	   user and the site therefore enhancing the user experience. I have chosen to use the box shadow technique within css3 as this not only is used for aesthetical
+	   appearance purposes but is also used to inform the user of the selected artist (image) as the box shadow creates a highlighted/bold effect.
+       I also have used css3 attributes such as height , width and absolute positioning to manipulate and design a gallery styled page that consists of both
+	   text and images which are interactive.</p>
+	<h4 id="other_10">Sources/references:</h4>
+	<p>I have used W3 schools just as a reference to refer to some uses of the jQuery animations ,absolute positioning , height and width properties and css3 hover
+	   properites such as hover and box shadows (Image references - see end of report)</p>
+	   		<h4 id="cv">cv.html</h4>
+	<img id="cv_img" src="images\cv.png" />
+	<h4 id="what_11">What I have done to achieve this result:</h4>
+	<p>I have made a personal statement / cv page that contains a sample cv that I have made as an example. In order to create this I have used html5 tags 
+	   such as artcile to create this page as I have created paragraphs within the article tags as the article tag acts as a container from which the 
+	   paragraphs which form the article are placed. I have also used css3 to position and align the text so that it is presented in a proffesional manner
+	   and coincides with the sites style. I have also used css3 to set the font to time burner aswell as setting the font to the blue colour which is seen
+	   throughout the theme of the site.</p>
+	<h4 id="why_11">Why I have done this:</h4>
+	<p>I have used html5 and css in this way as I wanted to achieve the effect of a proffesionally designed page that fitted in with the sleek theme that 
+	   runs throughout the site. I have also used article tags as they are a recognised html5 tag that can be used within both css and html5 allowing me to 
+	   present infomration in a simple and proffesional manner. I have also chosen to use the timeburner fontstyle and the blue colour value within css
+	   to keep the styling of the site unified and simplistic.</p>
+	<h4 id="other_11">Sources/references:</h4>
+	<p>I have only used the W3 schools reference pages to refer to specific css rules.</p>
+	<h4 id="references">References:</h4>
+	<h3>Image references:</h3>
+	http://e3on.com/wp-content/uploads/2013/10/7-1024x682.jpg -Use within site : background image.
+	<br/>
+	 https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_(square).png -Use within site : facebook icon on homepage.
+	<br/>
+	https://upload.wikimedia.org/wikipedia/it/0/09/Twitter_bird_logo.png -Use within site : twitter icon on homepage.
+	<br/>
+	https://pixabay.com/static/uploads/photo/2014/05/14/14/17/youtube-344105_960_720.png -Use within site : youtube icon on homepage.
+	<br/>
+	https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/New_Logo_Gmail.svg/2000px-New_Logo_Gmail.svg.png -Use within site : gmail icon on homepage.
+	<br/>
+	https://pixabay.com/en/tower-bridge-bridge-night-city-1069216/ -Use within site : image within the slider on homepage.
+	<br/>
+	https://www.flickr.com/photos/132084522@N05/16967984348 -Use within site : image within the slider on homepage.
+	<br/>
+	https://www.flickr.com/photos/davidedamico/16872863619 -Use within site : image within the slider on homepage.
+	<br/>
+	https://www.pexels.com/photo/city-night-evening-river-645/ -Use within site : image within the slider on homepage.
+	<br/>
+	https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Goldsmiths_Main_Building.jpg/265px-Goldsmiths_Main_Building.jpg -Use within site : image on about page.
+	<br/>
+	https://static.pexels.com/photos/4316/technology-computer-chips-gigabyte-large.jpg -Use within site : image on about page.
+	<br/>
+	https://www.flickr.com/photos/geralds_1311/6282167506 -Use within site : image on interests page / gallery.
+	<br>
+	https://www.flickr.com/photos/hebe/2383495796 -Use within site : image on interests page / gallery.
+	<br/>
+	http://www.dotpod.com.ar/nuevos-posters-de-la-saga-de-star-wars-por-olly-moss/ -Use within site : image on interests page / gallery.
+	<br/>
+	http://pics-about-space.com/eagle-nebula-nasa -Use within site : image on interests page / gallery.
+	<br/>
+	https://en.wikipedia.org/wiki/Electronics -Use within site : image on interests page / gallery.
+	<br/>
+	 https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/MarvelLogo.svg/2000px-MarvelLogo.svg.png -Use within site : image on interests page / gallery.
+	<br/>
+	https://www.flickr.com/photos/billmcintyre/8599201079 -Use within site : image on interests page / gallery.
+	<br/>
+	https://lh6.googleusercontent.com/proxy/lpqmpYRPUMez7ZDh2MIJXhawNIwzGYrCsnggTHx-m-0QWwbdZM_0UoIJs241JWDLB92bOJ1Xhnvrx1g4YAvWxlN_epcaG3KdNQlllDH9diRJsh_B0eCRnP8E5nvgLHpUkw=w426-h239-p -Use within site : image on interests page / gallery.
+	<br/>
+	http://media.topito.com/wp-content/uploads/2011/01/casque-600x450.jpg -Use within site : image on interests page / gallery.
+	<br/>
+	http://acdcfanclub.deviantart.com/art/acdc-Black-ice-Cover-119687035 -Use within site : image on music page / playlist.
+	<br/>
+	https://www.pinterest.com/pin/231231762092987327/ -Use within site : image on music page / playlist.
+	<br/>
+	https://www.flickr.com/photos/larkez/3594981563 -Use within site : image on music page / playlist.
+	<br/>
+	https://www.flickr.com/photos/kooroshication/8881651712 -Use within site : image on music page / playlist.
+	<br/>
+	http://hcmason96.deviantart.com/art/Deadmau5-Gear-460118845 -Use within site : image on music page / playlist.
+	<br/>
+	http://hcmason96.deviantart.com/art/Deadmau5-Gear-460118845 -Use within site : image on music page / playlist.
+	<br/>
+	https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Nirvana_album_cover.svg/220px-Nirvana_album_cover.svg.png -Use within site : image on music page / playlist.
+	<br/>
+	http://teews666.deviantart.com/art/Queen-Greatest-Hits-2-Cover-252159081 -Use within site : image on music page / playlist.
+	<br/>
+	https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Skrillex_Logo.png/800px-Skrillex_Logo.png -Use within site : image on music page / playlist.
+	<h3>Other references:</h3>
+	http://www.w3schools.com/ - Use within site :  Used as a reference guide.
+	<br/>
+	http://www.w3schools.com/css/css_positioning.asp - Use within site :  Used as a reference guide.
+	<br/>
+	http://www.w3schools.com/cssref/css3_pr_box-shadow.asp - Use within site :  Used as a reference guide.
+	<br/>
+	http://www.w3schools.com/jquery/ - Use within site :  Used as a reference guide.
+	<br/>	
+	https://www.youtube.com/watch?v=GJCWW2P_T0g - Use within site :  Used as a reference guide.
+	<br/>
+	http://www.w3schools.com/tags/tag_doctype.asp - Use within site :  Used as a reference guide.
+	<br/>
+	http://stackoverflow.com/questions/356809/best-way-to-center-a-div-on-a-page-vertically-and-horizontally - Use within site :  Used as a reference guide.
+	<br/>
+	https://dev.twitter.com/web/embedded-timelines -Use within site: steps were used in order to create the twitter feed.
+	<br/>
+	http://www.fontspace.com/nimavisual/timeburner -Use within site: Used as the font throughout the site.
+	<br/>
+	<br/>
+	In addition to the following links I have also taken notes within lectures which I have used as a reference guide to help design the site.
+	</body>
+	
+
+</html>
